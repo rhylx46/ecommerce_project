@@ -78,3 +78,51 @@ th,td {
 .orginal {
     background: #f4f4f4 url(../images/original.png) center no-repeat;
 }
+
+/* ---------head----------- */
+#head {
+    border-bottom: 1px solid #f3f3f3;
+    box-shadow: 0 2px 2px #f3f3f3;
+}
+
+#head .head {
+    background: #333;
+    font-size: 12px;
+    line-height: 36px;
+}
+
+#head .left{
+    color: #ccc;
+}
+
+#head li{
+    float: left;
+}
+
+#head li a{
+    color: #ccc;
+    padding: 0 10px;
+    border-left: 1px solid #5c5c5c;
+}
+
+#head li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#head .customerServ {
+    padding-right: 10px;
+    background: url(../images/customer_bg1.gif) 63px center no-repeat;
+    background-size: 10px 10px;
+}
+
+#head .customerServ:hover {
+    background: url(../images/customer_bg2.gif) 63px center no-repeat;
+    background-size: 10px 10px;
+}
+
+#head .download a{
+    padding-left: 20px;    
+    background: url(../images/ico_01.png) no-repeat;
+    background-size: 18px 18px;
+}
