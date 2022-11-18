@@ -114,12 +114,10 @@ th,td {
 #head .customerServ {
     padding-right: 10px;
     background: url(../images/customer_bg1.gif) 63px center no-repeat;
-    background-size: 10px 10px;
 }
 
 #head .customerServ:hover {
     background: url(../images/customer_bg2.gif) 63px center no-repeat;
-    background-size: 10px 10px;
 }
 
 #head .customerServ ul {
@@ -127,16 +125,19 @@ th,td {
     border: 1px solid #ddd;
     background: #fff;
     box-shadow: 0 0 3px rgba(0,0,0,.2);
-    /* display: none; */
+    display: none;
 }
 
-#head .customerServ ul::before {
+#head .customerServ:hover ul {
+    display: block;
+}
+
+#head .customerServ ul:before, #head .download div:before {
     width: 10px;
     height: 6px;
     content: '';
     display: block;
     background: url(../images/ico_02.png) no-repeat;
-    background-size: 6px 6px;
     position: absolute;
     left: 0;
     top: -6px;
@@ -162,7 +163,15 @@ th,td {
     color: #b4a078;
 }
 
-#head .customerServ li div {
+#head ,.customerServ li.phone {
+    background: url(../images/phone_bg1.gif) 63px center no-repeat;
+}
+
+#head ,.customerServ li.phone:hover {
+    background: url(../images/phone_bg2.gif) 63px center no-repeat;
+}
+
+#head .customerServ li.phone div {
     position: absolute;
     width: 110px;
     height: 57px;
@@ -170,10 +179,46 @@ th,td {
     top: 0;
     line-height: 20px;
     box-shadow: 0 0 3px rgba(0,0,0,.2);
+    text-align: center;
+    display: none;
+}
+
+#head .customerServ li.phone:hover div{
+    display: block;
+}
+
+#head .customerServ li.phone div p:first-child {
+    font-size: 14px;
+    color: #999;
+    margin-top: 12px;
+}
+
+#head .customerServ li.phone div p:nth-child(2) {
+    font-size: 12px;
+    color: #ccc;
+    
 }
 
 #head .download a{
-    padding-left: 20px;    
-    background: url(../images/ico_01.png) no-repeat;
-    background-size: 18px 18px;
+    padding-left: 25px;    
+    background: url(../images/ico_01.png) 10px no-repeat;
 }
+
+#head .download div {
+    position: absolute;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    display: none;
+    padding: 10px;
+    left: -46px;
+}
+
+#head .download:hover div {
+    display: block;
+    line-height: 20px;
+}
+
+#head .download span {
+    color: #b4a078;
+}
+
