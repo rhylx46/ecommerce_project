@@ -95,18 +95,19 @@ th,td {
     color: #ccc;
 }
 
-#head li{
+#head .head li{
     float: left;
     position: relative;
+    z-index: 2;
 }
 
-#head li a{
+#head .head li a{
     color: #ccc;
     padding: 0 10px;
     border-left: 1px solid #5c5c5c;
 }
 
-#head li a:hover {
+#head .head li a:hover {
     color: white;
     font-weight: bold;
 }
@@ -268,3 +269,39 @@ th,td {
 
 /* ---------nav----------- */
 
+.nav {
+    position: relative;
+    background: white;
+}
+
+.nav .logo, .nav .login, .nav .subNav{
+    display: none;
+}
+
+.navBar {
+    font-size: 0;
+}
+
+.navBar li {
+    display: inline;
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+.navBar li.separate {
+    padding: 0;
+    color: #ccc;
+}
+
+.navBar li a {
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.navBar li a:hover {
+    border-bottom: 3px solid #b4a078;
+}
+
+.cartWrap .cart {
+    display: none;
+}
