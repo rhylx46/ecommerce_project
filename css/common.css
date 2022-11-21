@@ -274,18 +274,24 @@ th,td {
     background: white;
 }
 
-.nav .logo, .nav .login, .nav .subNav{
+.nav .center {
+    position: relative;
+}
+
+.nav .logo, .nav .login {
     display: none;
 }
 
 .navBar {
     font-size: 0;
+    text-align: center;
 }
 
 .navBar li {
-    display: inline;
+    display: inline-block;
     font-size: 14px;
     padding: 0 30px;
+    height: 50px;
 }
 
 .navBar li.separate {
@@ -298,10 +304,40 @@ th,td {
     padding-bottom: 6px;
 }
 
-.navBar li a:hover {
+.navBar li a:hover, .navBar li.active a {
     border-bottom: 3px solid #b4a078;
+}
+
+/*购物车父级样式*/
+
+.cartWrap {
+    position: absolute;
+    right: 0;
+    top: -80px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/ico_04.gif);
+    cursor: pointer;
+}
+
+.cartWrap i {
+    font: 12px/20px "微软雅黑";
+    position: absolute;
+    top: -12px;
+    right:-12px;
+    color: #fff;
+    background: #d4282d;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
 }
 
 .cartWrap .cart {
     display: none;
+}
+
+/*弹出的导航样式*/
+.nav .subNav {
+
 }
