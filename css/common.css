@@ -404,7 +404,7 @@ th,td {
 
 .cartWrap .price {
     float: left;
-    width: 60px;
+    width: 55px;
     padding-top: 5px;
     font: 12px/25px "微软雅黑";
     color: #b62628;
@@ -415,6 +415,14 @@ th,td {
     width: 26px;
     font: 16px/25px "微软雅黑";
     padding-top: 5px;
+}
+
+/*购物车里滚动条的样式*/
+.scrollBar {
+    float: right;
+    width: 17px;
+    height: 244px;
+    background: #f1f1f1;
 }
 
 
