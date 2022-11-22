@@ -335,7 +335,7 @@ th,td {
 }
 
 .cartWrap .cart {
-    /* display: none; */
+    display: none;
     width: 328px;
     border: 1px solid #b5a176;
     box-shadow: 0 0 3px rgba(0,0,0,.5);
@@ -344,6 +344,7 @@ th,td {
     right: -22px;
     background: white;
     padding-top: 15px;
+    z-index: 10;
 }
 
 .cartWrap .cart:before {
@@ -413,16 +414,92 @@ th,td {
 .cartWrap .close {
     float: left;
     width: 26px;
-    font: 16px/25px "微软雅黑";
+    font: 12px/25px "微软雅黑";
     padding-top: 5px;
 }
 
 /*购物车里滚动条的样式*/
-.scrollBar {
+.cartWrap .scrollBar {
     float: right;
     width: 17px;
     height: 244px;
     background: #f1f1f1;
+    
+}
+
+.scrollBar span {
+    display: block;
+    width: 17px;
+    height: 17px;
+}
+
+.cartWrap .topBtn {
+    background: url(../images/topBtn_bg.gif) 0 0;
+}
+
+.cartWrap .topBtn:hover {
+    background: url(../images/topBtn_bg.gif) 0 -34px;
+}
+
+.cartWrap .topBtn:active {
+    background: url(../images/topBtn_bg.gif) 0 -51px;
+}
+
+.cartWrap .bottomBtn {
+    background: url(../images/bottomBtn_bg.gif) 0 0;
+}
+
+.cartWrap .bottomBtn:hover {
+    background: url(../images/bottomBtn_bg.gif) 0 -34px;
+}
+
+.cartWrap .bottomBtn:active {
+    background: url(../images/bottomBtn_bg.gif) 0 -51px;
+}
+
+.cartWrap .sliderWrap {
+    height: 210px;
+    position: relative;
+}
+
+.cartWrap .slide {
+    width: 17px;
+    height: 50px;
+    background: #c1c1c1;
+    position: absolute;
+    top: 0;
+}
+
+.cartWrap .slide:hover {
+    background: #a9a9a9;
+}
+
+.cartWrap .slide:active {
+    background: #787878;
+}
+
+.cartWrap .total {
+    height: 66px;
+    background: #f4f0ea;
+    text-align: center;
+    font: 12px/66px "微软雅黑";
+}
+
+.cartWrap .total span{
+	color: #c04646;
+}
+.cartWrap .total a{
+	display: inline-block;
+	width: 110px;
+	height: 36px;
+	line-height: 36px;
+	background: #b4a078;
+	color: #fff;
+	margin-left: 20px;
+	border-radius: 2px;
+}
+.cartWrap .total a:hover{
+	opacity: .8;
 }
 
 
