@@ -133,6 +133,8 @@
     position: absolute;
     left: 0;
     top: 0;
+    width: 357px;
+    height: 320px;
 }
 
 #brand .bBox div {
@@ -150,5 +152,7 @@
     align-content: space-between;
 }
 
-
+#brand .bBox:last-child img {
+    height: 155px;
+}
 
