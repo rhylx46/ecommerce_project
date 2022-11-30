@@ -248,3 +248,7 @@
 #new .next {
     right: -70px;
 }
+
+#new .prev:hover, #new .next:hover {
+    background: #b19e7a;
+}
