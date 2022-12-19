@@ -577,7 +577,96 @@
     color: #d4282d;
 }
 
+/*----------home----------*/
 
+#review {
+    background: #f4f0ea;
+    padding: 40px 0;
+}
 
+#review header {
+    margin-bottom: 20px;
+}
 
+#review h3 {
+    font-size: 28px;
+    margin-right: 10px;
+    display: inline;
+}
 
+#review .content {
+    position: relative;
+}
+
+#review .carouselImgCon {
+    position: relative;
+    height: 535px;
+    overflow: hidden;
+}
+
+#review .content ul {
+    width: 2000px;
+    position: absolute;
+    left: 0;
+}
+
+#review .content li {
+    width: 353px;
+    padding: 1px;
+    background: white;
+    float: left;
+    margin-right: 10px;
+}
+
+#review .content li a {
+    display: block;
+    width: 353px;
+    height: 353px;
+    overflow: hidden;
+}
+
+#review .content li img {
+    width: 353px;
+    height: 353px;
+}
+
+#review .content li div {
+    width: 345px;
+    height: 180px;
+    position: relative;
+    top: -40px;
+    background: white;
+    left: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#review .content li div p:nth-child(1) {
+    color: #999;
+}
+
+#review .content li div p:nth-child(2) {
+    margin: 10px 0 15px 0;
+}
+
+#review .content li div p .left {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#review .content li div p .right {
+    font-size: 12px;
+    color: #b4a078;
+}
+
+#review .prev {
+    left: -60px;
+}
+
+#review .next {
+    right: -60px;
+}
+
+#review .prev:hover, #review .next:hover {
+    background: #b19e7a;
+}
