@@ -577,7 +577,7 @@
     color: #d4282d;
 }
 
-/*----------home----------*/
+/*----------review----------*/
 
 #review {
     background: #f4f0ea;
@@ -670,3 +670,94 @@
 #review .prev:hover, #review .next:hover {
     background: #b19e7a;
 }
+
+/*----------footer----------*/
+
+footer {
+    text-align: center;
+}
+
+footer .message {
+    background: #fff;
+    padding: 40px 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+footer .message .center {
+    display: flex;
+}
+
+footer .message .box {
+    width: 360px;
+}
+
+footer .message .box h4 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+footer .message .phone {
+    font-size: 26px;
+}
+
+footer .message .workTime {
+    margin: 20px 0 30px 0;
+}
+
+footer .message .btn a {
+    display: inline-block;
+    width: 100px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid #666;
+    margin: 0 10px;
+}
+
+footer .message .btn a:hover {
+    color: #fff;
+    background: #666;
+}
+
+footer .message .box:nth-child(2) {
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    padding: 0 30px;
+    width: 370px;
+}
+
+footer .message .box:nth-child(2) p {
+    text-align: left;
+}
+
+footer .message dl {
+    margin-top: 30px;
+    line-height: 32px;
+}
+
+footer .message dt {
+    float: left;
+}
+
+footer .message dd {
+    float: left;
+    margin-left: 18px;
+}
+
+footer .box .discount {
+    color: #b4a078;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+footer .foot {
+    background: #414141;
+}
+
+footer .foot .title {
+    color: white;
+    height: 51px;
+    line-height: 51px;
+    padding: 40px 0;
+}
+
