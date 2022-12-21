@@ -759,5 +759,82 @@ footer .foot .title {
     height: 51px;
     line-height: 51px;
     padding: 40px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #4f4f4f;
+    display: flex;
+    justify-content: space-around;
 }
 
+footer .foot .title div {
+    padding-left: 70px;
+}
+
+footer .foot .title div:nth-child(1) {
+    background: url(../images/ico_08.gif) left no-repeat;
+}
+
+footer .foot .title div:nth-child(2) {
+    background: url(../images/ico_09.gif) left no-repeat;
+}
+
+footer .foot .title div:nth-child(3) {
+    background: url(../images/ico_10.gif) left no-repeat;
+}
+
+footer .copy {
+    padding: 30px 0;
+    color: #999;
+    line-height: 20px;
+}
+
+footer .copy a {
+    color: #999;
+}
+
+/*----------sidebar----------*/
+
+#sideBar {
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 1%;
+    background: white;
+    text-align: center;
+}
+
+#sideBar .top {
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+#sideBar .top a {
+    display: block;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sideBar .top a:nth-child(1) {
+    background: url(../images/ico_11.gif) top center no-repeat;
+}
+
+#sideBar .top a:nth-child(2) {
+    background: url(../images/ico_12.gif) top center no-repeat;
+}
+
+#sideBar .top a:nth-child(3) {
+    background: url(../images/ico_13.gif) top center no-repeat;
+}
+
+#sideBar .back {
+    display: block;
+    height: 45px;
+    color: white;
+    box-sizing: border-box;
+    background: #999 url(../images/ico_14.gif) center 8px no-repeat;
+    padding-top: 20px;
+}
+
+#sideBar .back:hover {
+    background-color: #b4a078;
+}
