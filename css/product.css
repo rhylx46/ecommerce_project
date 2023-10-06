@@ -87,3 +87,74 @@
     color: #d7282d;
     text-decoration: underline;
 }
+
+#productImg .price a.service {
+    font-size: 12px;
+    color: #666;
+    vertical-align: middle;
+}
+
+#productImg .price a.service:hover {
+    text-decoration: underline
+}
+
+#productImg .price i {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: url(../images/ico_15.gif) no-repeat;
+    vertical-align: middle;
+    margin: 0 5px 0 15px;
+}
+
+#productImg .price i:first-child {
+    margin-left: 0;
+}
+
+#productImg .format dl, #productImg .number {
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+    font-size: 12px;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+#productImg .format dt {
+    float: left;
+    margin-right: 30px;
+}
+
+#productImg .format dd {
+    height: 32px;
+    float: left;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#productImg .format dd.active {
+    border: 2px solid #b4a078;
+    background: url(../images/ico_16.gif) right bottom no-repeat;
+}
+
+#productImg .number *{
+    float: left;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#productImg .number .nTitle {
+    margin-right: 30px;
+}
+
+#productImg .noClick span {
+    width: 35px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    text-align: center;
+}
